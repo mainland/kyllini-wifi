@@ -1,4 +1,4 @@
-TOP=../../../..
+TOP=../../..
 
 TESTS=$(shell ls *.outfile.ground | sort)
 
