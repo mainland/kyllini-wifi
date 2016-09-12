@@ -1,4 +1,7 @@
 TOP=../../..
+WIFITOP=..
+
+KZCLIB=$(WIFITOP)/lib
 
 TESTS=$(shell ls *.outfile.ground | sort)
 
