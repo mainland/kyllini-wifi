@@ -1,7 +1,4 @@
-TOP=../../..
 WIFITOP=..
-
-KZCLIB=$(WIFITOP)/lib
 
 TESTS=$(shell ls *.blk | sort)
 

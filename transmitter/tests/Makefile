@@ -1,14 +1,11 @@
-TOP=../../../..
 WIFITOP=../..
-
-KZCLIB=$(WIFITOP)/lib
 
 TESTS=$(shell ls *.outfile.ground | sort)
 
 .PHONY : all
 all : $(patsubst %.outfile.ground, %.test, $(TESTS))
 
-include $(TOP)/mk/common.mk
+include $(WIFITOP)/mk/common.mk
 
 .PHONY : clean
 clean :
